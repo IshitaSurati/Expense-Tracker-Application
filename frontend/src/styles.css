@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+  }
+  
+  .navbar {
+    background: #6200ea;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar .btn {
+    margin-left: 10px;
+    color: #6200ea;
+    background: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar .btn.primary {
+    background: #bb86fc;
+    color: #fff;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .expense-form input,
+  .expense-form select {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .expense-form button {
+    padding: 10px 20px;
+    background: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .expense-table th {
+    background: #6200ea;
+    color: #fff;
+  }
+  
+  .modal-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-form button {
+    padding: 10px;
+    background: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .modal-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .charts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
